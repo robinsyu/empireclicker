@@ -3,37 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empire Clicker - Build Your Business Empire | Free Online Game</title>
+    <title>Empire Clicker Game Online - Build Your Business Empire | Free Online Game</title>
     <meta name="description" content="Play Empire Clicker online for free. Build your business empire from scratch, manage resources, and become a tycoon in this addictive clicker game.">
     <link rel="canonical" href="https://empireclicker.online">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gloria+Hallelujah&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     fontFamily: {
-                        'sketchy': ['"Gloria Hallelujah"', 'cursive'],
-                        'hand': ['"Patrick Hand"', 'cursive'],
-                        'alt': ['"Architects Daughter"', 'cursive'],
+                        'display': ['Cinzel', 'serif'],
+                        'body': ['Montserrat', 'sans-serif'],
                     },
                     colors: {
-                        'paper': '#f8f5e6',
-                        'pencil': '#2d2d2d',
-                        'accent': '#ff6b6b',
-                        'highlight': '#ffd166',
+                        'primary': '#f7e9d0',
+                        'dark': '#1a1b23',
+                        'gold': '#c6a76a',
+                        'gold-light': '#e6d5ac',
+                        'accent': '#69acc9',
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
                     }
                 },
             },
         }
     </script>
-    <!-- Montag -->
-    <!-- Google adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3859990549604539"
-     crossorigin="anonymous">
-     </script>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JHXEWHLKH5"></script>
     <script>
@@ -45,40 +44,115 @@
     </script>
     <style>
         body {
-            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23dddcdc' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
-            background-color: var(--color-paper, #f8f5e6);
-        }
-        .sketchy-border {
-            border: 3px solid var(--color-pencil, #2d2d2d);
-            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.1);
+            background-color: #1a1b23;
+            background-image: url('https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
             position: relative;
         }
-        .sketchy-border::before {
+        
+        body::before {
             content: '';
-            border: 2px solid var(--color-pencil, #2d2d2d);
-            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
             position: absolute;
-            top: 4px;
-            left: 4px;
-            right: 4px;
-            bottom: 4px;
-            pointer-events: none;
-            opacity: 0.2;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(26, 27, 35, 0.85);
+            z-index: -1;
         }
-        .sketchy-button {
-            border: 2px solid var(--color-pencil, #2d2d2d);
-            border-radius: 255px 8px 225px 8px/8px 225px 8px 255px;
+        
+        .genshin-container {
+            position: relative;
+            border: 1px solid rgba(198, 167, 106, 0.6);
+            background-color: rgba(26, 27, 35, 0.85);
+            box-shadow: 0 0 20px rgba(198, 167, 106, 0.15);
+            overflow: hidden;
+        }
+        
+        .genshin-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #c6a76a, transparent);
+        }
+        
+        .genshin-container::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #c6a76a, transparent);
+        }
+        
+        .genshin-button {
+            position: relative;
+            border: 1px solid #c6a76a;
+            background-color: rgba(198, 167, 106, 0.1);
+            color: #f7e9d0;
             transition: all 0.3s ease;
+            overflow: hidden;
         }
-        .sketchy-button:hover {
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.4);
-            transform: translate(-2px, -2px);
+        
+        .genshin-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transition: 0.5s;
         }
+        
+        .genshin-button:hover {
+            background-color: rgba(198, 167, 106, 0.2);
+            box-shadow: 0 0 10px rgba(198, 167, 106, 0.5);
+        }
+        
+        .genshin-button:hover::before {
+            left: 100%;
+        }
+        
+        .genshin-heading {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        
+        .genshin-heading::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #c6a76a, transparent);
+        }
+        
+        .genshin-list li {
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .genshin-list li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: #c6a76a;
+        }
+        
         .aspect-w-16 {
             position: relative;
             padding-bottom: 56.25%;
         }
+        
         .aspect-w-16 iframe {
             position: absolute;
             width: 100%;
@@ -86,86 +160,256 @@
             top: 0;
             left: 0;
         }
+        
+        .nav-link {
+            position: relative;
+            color: #f7e9d0;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #c6a76a;
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        
+        .nav-link:hover::after {
+            width: 70%;
+        }
+        
+        .ornate-divider {
+            position: relative;
+            height: 40px;
+            margin: 2rem 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 10 H40 M60 10 H100' stroke='%23c6a76a' stroke-width='1'/%3E%3Ccircle cx='50' cy='10' r='5' fill='none' stroke='%23c6a76a' stroke-width='1'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
     </style>
 </head>
-<body class="font-hand text-pencil">
-    <header class="max-w-6xl mx-auto px-4 py-6 md:py-8">
-        <div class="sketchy-border bg-white p-4 md:p-6 mb-6">
-            <h1 class="text-4xl md:text-6xl font-sketchy text-center tracking-wide text-accent">Empire Clicker</h1>
-            <p class="text-xl md:text-2xl text-center mt-2 italic">Build your business empire from scratch and become a wealthy tycoon!</p>
+<body class="font-body text-primary relative z-0">
+    <nav class="bg-dark/90 border-b border-gold/30 fixed w-full top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="text-gold font-display text-xl tracking-wider">EMPIRE CLICKER</a>
+                <div class="hidden md:flex space-x-2">
+                    <a href="#game" class="nav-link">Play</a>
+                    <a href="#how-to-play" class="nav-link">How to Play</a>
+                    <a href="#advantages" class="nav-link">Advantages</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#how-it-works" class="nav-link">How it Works</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 max-w-6xl mx-auto px-4 relative">
+        <div class="text-center">
+            <h1 class="text-5xl md:text-7xl font-display text-gold mb-6 tracking-wide">Empire Clicker Game Online</h1>
+            <p class="text-xl md:text-2xl font-light max-w-3xl mx-auto">The ultimate business tycoon simulation - build your empire from scratch!</p>
         </div>
     </header>
 
-    <main class="max-w-6xl mx-auto px-4 mb-12">
-        <section class="mb-10">
-            <div class="sketchy-border bg-white p-4 md:p-6 mb-6">
+    <main class="max-w-6xl mx-auto px-4 relative z-10">
+        <!-- Game Area -->
+        <section id="game" class="mb-16">
+            <div class="genshin-container p-6">
                 <div class="aspect-w-16">
                     <iframe src="https://www.crazygames.com/embed/empire-clicker" 
                             allow="autoplay; fullscreen; cross-origin-isolated"
                             allowfullscreen></iframe>
                 </div>
-                <div class="mt-4 text-center">
+                <div class="mt-6 text-center">
                     <a href="https://www.crazygames.com/embed/empire-clicker" target="_blank" 
-                       class="sketchy-button inline-block bg-highlight px-6 py-3 text-xl font-bold">
-                        Play Fullscreen
+                       class="genshin-button inline-block px-8 py-3 text-lg font-display tracking-widest">
+                        FULLSCREEN MODE
                     </a>
                 </div>
             </div>
         </section>
 
-        <section class="grid md:grid-cols-2 gap-8 mb-10">
-            <div class="sketchy-border bg-white p-4 md:p-6">
-                <h2 class="text-3xl font-sketchy mb-4 text-accent">About Empire Clicker</h2>
-                <p class="mb-3">Empire Clicker is an addictive incremental game where you start with nothing but ambition and build your way to a thriving business empire.</p>
-                <p class="mb-3">Begin with simple clicks that generate small amounts of cash, then strategically invest in various business ventures. As your empire grows, unlock new opportunities, upgrades, and achievements.</p>
-                <p>With intuitive gameplay mechanics and satisfying progression, Empire Clicker offers both quick play sessions and long-term strategic planning.</p>
-            </div>
-            
-            <div class="sketchy-border bg-white p-4 md:p-6">
-                <h2 class="text-3xl font-sketchy mb-4 text-accent">How To Play</h2>
-                <ul class="list-disc list-inside space-y-2">
-                    <li>Click to earn your initial capital</li>
-                    <li>Purchase businesses to generate passive income</li>
-                    <li>Upgrade your businesses to increase profits</li>
-                    <li>Hire managers to automate operations</li>
-                    <li>Balance investments to maximize your empire's growth</li>
+        <div class="ornate-divider"></div>
+
+        <!-- How to Play -->
+        <section id="how-to-play" class="mb-16">
+            <div class="genshin-container p-6">
+                <h2 class="text-3xl font-display text-gold mb-6 genshin-heading">How to Play Empire Clicker</h2>
+                <p class="mb-4">Empire Clicker offers intuitive gameplay that's easy to learn but challenging to master. Follow these steps to build your business empire:</p>
+                <ul class="genshin-list space-y-3">
+                    <li>Start by clicking the main button to earn your initial cash</li>
+                    <li>Use your earnings to purchase your first business</li>
+                    <li>Each business generates passive income at different rates</li>
+                    <li>Reinvest profits to upgrade existing businesses</li>
+                    <li>Hire managers to automate your businesses</li>
                 </ul>
+                <p class="mt-4">The key to success is balancing your investments and strategically deciding when to expand versus when to upgrade.</p>
             </div>
         </section>
 
-        <section class="mb-10">
-            <div class="sketchy-border bg-white p-4 md:p-6">
-                <h2 class="text-3xl font-sketchy mb-4 text-accent">Game Features</h2>
-                <div class="grid md:grid-cols-3 gap-6">
+        <div class="ornate-divider"></div>
+
+        <!-- Game Advantages -->
+        <section id="advantages" class="mb-16">
+            <div class="genshin-container p-6">
+                <h2 class="text-3xl font-display text-gold mb-6 genshin-heading">Empire Clicker Game Advantages</h2>
+                <div class="grid md:grid-cols-2 gap-6">
                     <div>
-                        <h3 class="text-2xl font-alt font-bold mb-2">Multiple Businesses</h3>
-                        <p>Invest in and manage various business types, each with unique profit potential and upgrade paths.</p>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Accessible Gameplay</h3>
+                        <p>Play anytime, anywhere with no downloads required. The game runs smoothly in any browser on desktop and mobile devices.</p>
                     </div>
                     <div>
-                        <h3 class="text-2xl font-alt font-bold mb-2">Strategic Upgrades</h3>
-                        <p>Purchase upgrades to increase your clicking power, business efficiency, and income multipliers.</p>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Perfect for Any Schedule</h3>
+                        <p>Whether you have 5 minutes or 5 hours, Empire Clicker adapts to your playtime. Your businesses keep generating income even when you're away.</p>
                     </div>
                     <div>
-                        <h3 class="text-2xl font-alt font-bold mb-2">Manager System</h3>
-                        <p>Hire managers to automate your businesses and generate income even when you're not actively clicking.</p>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Strategic Depth</h3>
+                        <p>Behind the simple interface lies a complex economy simulation with meaningful choices that impact your empire's growth.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Constant Progress</h3>
+                        <p>Experience the satisfaction of watching your wealth grow with each upgrade and expansion, creating a rewarding gameplay loop.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div class="sketchy-border bg-white p-4 md:p-6">
-                <h2 class="text-3xl font-sketchy mb-4 text-accent">Why Play Empire Clicker</h2>
-                <p class="mb-3">Empire Clicker offers the perfect balance of simple mechanics and deep strategy. Whether you have just a few minutes to spare or want to dive in for hours, you'll find satisfaction in watching your empire grow.</p>
-                <p class="mb-3">The game is completely free to play and runs directly in your browser - no downloads required. You can play on any device, from your desktop computer to your mobile phone.</p>
-                <p>Join thousands of players worldwide who are already building their business empires. How far can you expand your empire?</p>
+        <div class="ornate-divider"></div>
+
+        <!-- Core Features -->
+        <section id="features" class="mb-16">
+            <div class="genshin-container p-6">
+                <h2 class="text-3xl font-display text-gold mb-6 genshin-heading">Empire Clicker Core Features</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="h-16 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gold-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Multiple Business Types</h3>
+                        <p>Diverse ventures with unique profit mechanics</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="h-16 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gold-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Upgrade System</h3>
+                        <p>Enhance business efficiency and profit generation</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="h-16 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gold-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-display text-gold-light mb-3">Manager Automation</h3>
+                        <p>Hire staff to run businesses automatically</p>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <div class="ornate-divider"></div>
+
+        <!-- How the Game Works -->
+        <section id="how-it-works" class="mb-16">
+            <div class="genshin-container p-6">
+                <h2 class="text-3xl font-display text-gold mb-6 genshin-heading">How Empire Clicker Works</h2>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <div class="text-gold font-display text-2xl mr-4">1</div>
+                        <div>
+                            <h3 class="text-xl font-display text-gold-light">Initial Investment</h3>
+                            <p>The game begins with manual clicking to accumulate your starting capital. Each click represents your entrepreneurial effort.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="text-gold font-display text-2xl mr-4">2</div>
+                        <div>
+                            <h3 class="text-xl font-display text-gold-light">Business Acquisition</h3>
+                            <p>Once you have enough capital, purchase your first business. Each business has a unique cost-to-profit ratio and production cycle.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="text-gold font-display text-2xl mr-4">3</div>
+                        <div>
+                            <h3 class="text-xl font-display text-gold-light">Growth & Expansion</h3>
+                            <p>Reinvest your profits to upgrade existing businesses or diversify with new ventures. The economy scales exponentially.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="text-gold font-display text-2xl mr-4">4</div>
+                        <div>
+                            <h3 class="text-xl font-display text-gold-light">Automation</h3>
+                            <p>As your empire grows, hire managers to automate your businesses. This creates passive income even when you're not actively playing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="ornate-divider"></div>
+
+        <!-- FAQ -->
+        <section id="faq" class="mb-16">
+            <div class="genshin-container p-6">
+                <h2 class="text-3xl font-display text-gold mb-6 genshin-heading">Frequently Asked Questions</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-display text-gold-light mb-2">Is Empire Clicker free to play?</h3>
+                        <p>Yes, Empire Clicker is completely free to play in your browser with no downloads required.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-display text-gold-light mb-2">Does my progress save when I close the game?</h3>
+                        <p>Your progress is automatically saved to your browser's local storage. Just make sure you don't clear your browser data if you want to keep your empire.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-display text-gold-light mb-2">What's the best strategy for beginners?</h3>
+                        <p>Focus on purchasing your first few businesses and then save up for managers to automate them. Balance between upgrading existing businesses and buying new ones.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-display text-gold-light mb-2">Can I play on mobile devices?</h3>
+                        <p>Yes, Empire Clicker is fully optimized for mobile play. The touch interface works perfectly for the clicking mechanics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
-    <footer class="max-w-6xl mx-auto px-4 py-6 text-center">
-        <p class="mb-2">&copy; 2025 empireclicker.online. All rights reserved.</p>
-        <p class="text-sm text-gray-600">Your journey to business success starts here!</p>
+    <footer class="border-t border-gold/30 py-8 text-center relative z-10">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="mb-4">
+                <a href="#" class="text-gold font-display text-xl tracking-wider">EMPIRE CLICKER</a>
+            </div>
+            <p class="text-sm text-primary/70">&copy; 2025 empireclicker.online. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
