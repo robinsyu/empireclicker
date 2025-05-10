@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1b23" />
+      <stop offset="100%" stop-color="#2a2b35" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e6d5ac" />
+      <stop offset="100%" stop-color="#c6a76a" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Dark background with rounded corners -->
+  <rect width="32" height="32" rx="6" fill="url(#bgGradient)" />
+  
+  <!-- Decorative corner elements - Genshin-inspired ornate details -->
+  <path d="M2 8L5 5L8 2" stroke="url(#goldGradient)" stroke-width="1" stroke-linecap="round" />
+  <path d="M24 2L27 5L30 8" stroke="url(#goldGradient)" stroke-width="1" stroke-linecap="round" />
+  <path d="M30 24L27 27L24 30" stroke="url(#goldGradient)" stroke-width="1" stroke-linecap="round" />
+  <path d="M8 30L5 27L2 24" stroke="url(#goldGradient)" stroke-width="1" stroke-linecap="round" />
+  
+  <!-- Main stylized "E" letter with Genshin-inspired style -->
+  <g filter="url(#glow)">
+    <!-- Vertical bar of E -->
+    <rect x="9" y="7" width="3" height="18" fill="url(#goldGradient)" />
+    
+    <!-- Horizontal bars of E -->
+    <rect x="9" y="7" width="14" height="3" fill="url(#goldGradient)" />
+    <rect x="9" y="14.5" width="12" height="3" fill="url(#goldGradient)" />
+    <rect x="9" y="22" width="14" height="3" fill="url(#goldGradient)" />
+    
+    <!-- Diamond accent for Genshin feel -->
+    <circle cx="22" cy="16" r="1.5" fill="#f7e9d0" />
+  </g>
+  
+  <!-- Subtle border glow -->
+  <rect x="1" y="1" width="30" height="30" rx="5" stroke="url(#goldGradient)" stroke-width="0.5" fill="none" />
+</svg> 
